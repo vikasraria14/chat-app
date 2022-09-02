@@ -1,0 +1,47 @@
+.LeftWrapper{
+    min-width: 22.5%;
+}
+
+.Selected{
+    background-color: #f3f6fb;
+}
+.list{
+    width: 80%;
+    border-radius: 5px;
+    padding: 2%;
+    margin-top: 1%;
+}
+.QuickChatWrapper{
+    padding-left: 1%;
+    padding-bottom: 2%;
+}
+
+.QuickImage{
+    width: 30px;
+    height: 30px;
+    margin-right: 3%;
+}
+.avatar2{
+    margin-right: 8px;
+}
+.heading{
+    margin-right: 8px;
+}
+.count{
+    border-radius: 50%;
+    width: 20px;
+    padding-left: 5px;
+    background-color:  #f3f6fb;
+}
+.drop{
+    float: right;
+    margin-left: 18%;
+}
+.wide{
+    width: 100%;
+    margin-top: 7px;
+}
+
+.drop1{
+    margin-left: 28%;
+}

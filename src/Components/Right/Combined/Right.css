@@ -1,0 +1,80 @@
+.RightWrapper {
+    min-width: 20%;
+    height: 100%;
+    font-size: 12px;
+
+}
+
+.Card {
+    text-align: center;
+    background-color: #F7F9FC;
+    border-radius: 15px;
+    padding: 3%;
+
+    margin-bottom: 0%;
+    height: 100%;
+}
+
+.info {
+    text-align: left;
+    justify-content: left;
+    width: 100%;
+    padding-left: 30px;
+}
+
+.plane {
+    position: absolute;
+    height: 40px;
+    width: 60px;
+    top: -9%;
+}
+
+.Details {
+    width: 25px;
+    height: 15px;
+    padding-right: 5px;
+}
+
+.UserInfoWrapper {
+    height: 30%;
+    margin-bottom: 5%;
+}
+
+.PromotionWrapper {
+    height: 25%;
+}
+
+.StatsWrapper {
+    height: 40%;
+    margin-bottom: 5%;
+}
+
+.butn {
+    font: 12px;
+    height: 25px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    color: blue;
+    font-weight: bold;
+    background-color: white;
+    margin-top: 5px;
+}
+
+.butn1 {
+    font: 12px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: blue;
+    margin-top: 5px;
+}
+
+p {
+    margin: 0px;
+}
+
+h6 {
+    margin: 0px;
+}

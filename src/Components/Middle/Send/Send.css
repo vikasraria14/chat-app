@@ -1,0 +1,35 @@
+.endWrapper{
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    width: 80%;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+.SendWrapper{
+    background-color: red;
+    height: 13%;
+    width: 100%;
+    background-color: white;
+    padding: 2%;
+    padding-bottom: 3%;
+    border-radius: 15px;
+}
+input{
+    width: 81%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.butn2{
+    font: 12px;
+    height: 30spx;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    
+    background-color: blue;
+    margin-top: 5px;
+}

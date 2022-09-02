@@ -1,0 +1,12 @@
+.switchChange {
+    /* align-items: center; */
+    /* vertical-align: middle; */
+    width: -moz-fit-content;
+    width: fit-content;
+    padding-left: 20%;
+}
+
+.form{
+    width: 100%;
+    vertical-align: middle;
+}

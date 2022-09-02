@@ -1,0 +1,23 @@
+.UserInfoCardWrapper{
+    margin-bottom: 5%;
+    width: 90%;
+}
+.Card{
+    text-align: center;
+    align-items: center;
+    background-color: #F7F9FC;
+    border-radius: 15px;
+    padding: 3%;
+}
+
+.avatar1{
+  vertical-align: middle;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  
+}
+
+.card-text{
+    margin: 0%;
+}
