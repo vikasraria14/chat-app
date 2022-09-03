@@ -2,6 +2,7 @@ html,body{
   width: 100%;
   background-color: #F7F9FC;
   height:100vh;
+  font-family:sans-serif;
 }
 .MakeFlex{
   display: flex;
