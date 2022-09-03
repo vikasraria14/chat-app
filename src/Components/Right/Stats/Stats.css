@@ -1,6 +1,6 @@
 .TileWrapper{
     width: 85%;
-    height: 90px;
+    height: 50%;
     font-size: xx-small;
     
 }
@@ -23,7 +23,7 @@
     padding-top: 8%;
 }
 .Graph{
-    height: 90px;
+    height: 50%;
     width: 100%;
 }
 .SmallTileWrapper{
@@ -77,4 +77,8 @@ img{
     width: 25px;
     height: 25px;
     border-radius: 50%;
+}
+.AdjustFont{
+    font-size:100%;
+    font-weight: bold;
 }

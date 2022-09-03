@@ -93,8 +93,13 @@
     width: 90%;
 }
 
-.activeDot{
-    position: absolute;
-    background-color: red;
+.dot{
+    position: relative;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
+    
+    right: 6px;
+    bottom: -8px;
+    
 }

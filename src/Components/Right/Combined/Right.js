@@ -5,7 +5,7 @@ import './Right.css'
 
 const Right=()=>{
     return (
-        <div className="RightWrapper ">
+        <div className="RightWrapper" id="RightWrapper">
             <UserInfoCard/>
             <Stats/>
             <Promotion/>

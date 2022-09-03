@@ -3,8 +3,15 @@ import Middle from "../Middle/Combined/Middle";
 import Right from "../Right/Combined/Right";
 import "./AllCombined.css";
 import { useSelector } from "react-redux";
+import {isMobile} from 'react-device-detect';
 const AllCombined = () => {
   const show = useSelector((state) => state.showRightPanel);
+  if(isMobile)
+  {
+    return(
+      <Left />
+    )
+  }
   if (show) {
     return (
       <div className="AllCombined">

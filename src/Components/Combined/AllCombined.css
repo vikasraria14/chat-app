@@ -5,3 +5,42 @@
     border-radius: 25px;
     height: 100%;
 }
+
+@media screen and (max-width:800px) {
+   
+    .AllCombined{
+        display: block;
+    }
+    .StatsWrapper{
+        height: 300px;
+    }
+    .QuickChatWrapper{
+        padding-left: 1%;
+        padding-bottom: 2%;
+        padding-top: 2%;
+        position: fixed;
+        z-index: 10;
+        background-color: white;
+        top:0;
+        left: 0;
+        width: 100%;
+        background-color: #f5f8fc;
+        font-weight: bold;
+        
+    }
+    .UserInfoCardWrapper{
+        margin-bottom: 5%;
+        width: 90%;
+        margin-top: 50px;
+        
+    }
+    input{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    input{
+        width: 75%;
+    }
+}

@@ -21,6 +21,7 @@ const Chats=()=>{
                         }
                     )
                 }
+                
             </div>
         ) 
     }

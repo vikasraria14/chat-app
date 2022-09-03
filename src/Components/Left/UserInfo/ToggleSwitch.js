@@ -1,8 +1,11 @@
 import Form from 'react-bootstrap/Form';
+import { useDispatch } from 'react-redux';
 import './ToggleSwitch.css'
+import {toggleUserIsActive} from '../../../Reducers/UserActiveReducer'
 function SwitchExample() {
-  const nothing=()=>{
-
+  const dispatch=useDispatch();
+  const changeActive=()=>{
+    dispatch(toggleUserIsActive())
   }
   return (
     <div className='switchChange'>
@@ -12,8 +15,8 @@ function SwitchExample() {
         type="switch"
         id="custom-switch"
         label="Active"
-        onChange={nothing}
-        checked
+        onChange={changeActive}
+        
       />
       
     </Form>

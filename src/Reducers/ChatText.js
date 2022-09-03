@@ -10,12 +10,12 @@ export const ChatData = [
       chat: [
         {
           from:"User2",
-          message: 'Hisdfghjkl;kjhgfdxcfvgbhnjmkk,jmnhbgvfcdxsdctfvygbuhnijmkmjnhbgvfcdexcfvghjkmjnhbugvyfrdefvgbhnjmkjnhibugvyfrcdefvgbhnjmnhbugvyfctdecfvbnh',
+          message: 'Hi',
           date: '2019-05-30T18:39:34.091Z'          
         },
         {
             from:"User1",
-            message: 'Helloesxrdctfvygbhjnkml mjnhbugvyfrtdeswdectfvygbuhnijmk,mjnihbugtf6r5de4fgbunmkonhbgtfr65de4swdfgbunimjkjnhbgtf6rd',
+            message: 'Hello',
             date: '2019-05-30T18:39:34.091Z'          
           },
           {
