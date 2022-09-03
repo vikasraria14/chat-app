@@ -23,9 +23,14 @@
     height: 30px;
     margin-right: 3%;
 }
-.avatar2{
-    margin-right: 8px;
+.avatar10{
+    vertical-align: middle;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 15px;
 }
+
 .heading{
     margin-right: 8px;
 }

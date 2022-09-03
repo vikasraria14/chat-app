@@ -28,14 +28,14 @@ const ShowNames=({chat1})=>{
     if(chat1.selected)
     {
         return(
-            <p key={chat1.name} className="Selected list"><img alt="" className="avatar2"  src={photos[id-1]} />{chat1.name}</p>
+            <p key={chat1.name} className="Selected list"><img alt="" className="avatar10"  src={photos[id-1]} />{chat1.name}</p>
         )
     }
     else
     {
         
         return(
-            <p key={chat1.name}  onClick={toggleSelected(chat1.name)} className="NotSelected list"><img alt="" className="avatar2"  src={photos[id-1]} />{chat1.name}</p>
+            <p key={chat1.name}  onClick={toggleSelected(chat1.name)} className="NotSelected list"><img alt="" className="avatar10"  src={photos[id-1]} />{chat1.name}</p>
         )
     }
 }

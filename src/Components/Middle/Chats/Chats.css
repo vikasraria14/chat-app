@@ -23,13 +23,14 @@
     justify-content: right;
     
     align-items: flex-end;
+    margin-bottom: 0px;
 }
 
 .User2 {
 
     display: flex;
     margin: 2%;
-
+    margin-bottom: 0px;
 
     width: 70%;
 
@@ -63,6 +64,10 @@
 
 }
 
+.Message{
+    padding-left: 10px;
+}
+
 .User1Box {
     width: 100%;
     display: flex;
@@ -81,10 +86,24 @@
 }
 
 .User1Image {
+    color: #d6dae4;
     color: black;
-    padding-top: 1%;
+    font-size: xx-small;
+    float: right;
+    position: relative;
+    right: 58px;
+    bottom: 5px;
 }
-
+.User2Time{
+    color: #d6dae4;
+    color: black;
+    font-size: xx-small;
+    
+}
+.Message100{
+    width: 100%;
+    float: right;
+}
 .User2Image {
     width: 40px
 }

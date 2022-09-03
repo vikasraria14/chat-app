@@ -6,12 +6,7 @@ import { useSelector } from "react-redux";
 import {isMobile} from 'react-device-detect';
 const AllCombined = () => {
   const show = useSelector((state) => state.showRightPanel);
-  if(isMobile)
-  {
-    return(
-      <Left />
-    )
-  }
+  
   if (show) {
     return (
       <div className="AllCombined">

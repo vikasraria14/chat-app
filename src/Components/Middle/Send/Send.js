@@ -13,6 +13,7 @@ const Send=()=>{
         }
         console.log(x);
         dispatch(appendChat(x));
+        event.target.TypedMessage.value=" ";
         //ChatData=ChatData[0].chat.concat(x)
     }
     return(
